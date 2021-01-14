@@ -1,0 +1,10 @@
+{
+  name: "{{ mapName }}",
+  img: "{{ mapScreenshot }}",
+  opts: {
+    class: ["{{ className }}"],
+    tier: ["{{ mapTier }}"],
+    hascourses: {{ mapHasCourses }},
+    hasgimmick: {{ mapHasGimmicks }}
+  }
+}
